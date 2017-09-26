@@ -10,15 +10,14 @@ public class Program {
 		sw.addElectricytiCostomer(lamp); //event subscribe
 		sw.addElectricytiCostomer(radio); //event subscribe
 		
-		//anonymous class example
 		sw.addElectricytiCostomer(new ElectricytiCostomer(){
 
 			@Override
 			public void electricytiOn() {
-				System.out.println("fire !!!!");
+				System.out.println("fire !!!!")
 			}
 			
-		});
+		})
 		
 		sw.switcherOn();
 		

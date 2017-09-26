@@ -10,7 +10,6 @@ public class Program {
 		sw.addElectricytiCostomer(lamp); //event subscribe
 		sw.addElectricytiCostomer(radio); //event subscribe
 		
-		//anonymous class example
 		sw.addElectricytiCostomer(new ElectricytiCostomer(){
 
 			@Override
