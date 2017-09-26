@@ -5,18 +5,9 @@ public class Switcher {
 	
 	ArrayList<ElectricytiCostomer> costomer = new ArrayList<>();
 	
-	void addElectricytiCostomer(ElectricytiCostomer cos) {
-		
-		costomer.add(cos);
-	}
-	
-	
 	void switcherOn() {
-		
 		System.out.println("Switcher on!");
-		
 		if (costomer != null) {
-			
 			for (ElectricytiCostomer cos :costomer ) {
 				cos.electricytiOn();
 			}

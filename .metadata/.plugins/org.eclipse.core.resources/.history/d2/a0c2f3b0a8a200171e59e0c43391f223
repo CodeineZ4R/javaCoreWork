@@ -2,13 +2,10 @@
 public class Program {
 
 	public static void main(String[] args) {
-		
+		System.out.println("Hello world");
 		Switcher sw = new Switcher();
 		Lamp lamp = new Lamp();
-		Radio radio = new Radio();
-		
-		sw.addElectricytiCostomer(lamp); //event subscribe
-		sw.addElectricytiCostomer(radio); //event subscribe
+		sw.costomer = lamp;
 		sw.switcherOn();
 		
 

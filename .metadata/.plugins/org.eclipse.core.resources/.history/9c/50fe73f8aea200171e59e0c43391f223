@@ -5,10 +5,8 @@ public class Program {
 		
 		Switcher sw = new Switcher();
 		Lamp lamp = new Lamp();
-		Radio radio = new Radio();
 		
-		sw.addElectricytiCostomer(lamp); //event subscribe
-		sw.addElectricytiCostomer(radio); //event subscribe
+		sw.costomer.add(lamp); //event subscribe
 		sw.switcherOn();
 		
 
