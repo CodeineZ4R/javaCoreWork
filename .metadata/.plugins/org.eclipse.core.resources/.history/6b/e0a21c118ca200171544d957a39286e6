@@ -1,0 +1,6 @@
+
+public class Switcher {
+	void switcherOn() {
+		System.out.println("Switcher on!");
+	}
+}

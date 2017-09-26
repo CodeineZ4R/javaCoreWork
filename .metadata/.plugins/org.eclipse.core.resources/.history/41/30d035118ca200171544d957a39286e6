@@ -1,0 +1,8 @@
+
+public class Lamp {
+	
+	void lampOn() {
+		System.out.println("Lamp on!");
+		
+	}
+}
